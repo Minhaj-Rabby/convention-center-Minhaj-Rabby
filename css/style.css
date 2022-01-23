@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins',
+    sans-serif !important;
+}
+.carousel-item h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.carousel-item p {
+    font-size: 16px;
+    font-weight: 500;
+}
+.carousel-item{
+    max-height: 90vh;
+    
+}
+@media (max-width:768px) {
+    .carousel-item{
+        height: 75vh;
+    }
+    .carousel-item img{
+        height: 100%;
+        transform: scale(1.3);
+    }
+    .carousel-item h2 {
+        font-size:26px;
+        font-weight: 600;
+    }
+}
+@media (max-width:600px) {
+    .carousel-item img {
+        height: 100%;
+        transform: scale(1.7);
+    }
+}
